@@ -1,0 +1,32 @@
+:root {
+    --rosa-principal: #ff69b4;   /* Rosa choque */
+    --rosa-medio: #ff85c1;       /* Rosa médio */
+    --rosa-claro: #ffc1e3;       /* Rosa clarinho */
+    --rosa-bem-claro: #ffe4f1;   /* Rosa quase branco */
+    --texto-escuro: #333;
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--rosa-bem-claro);
+    color: var(--texto-escuro);
+}
+
+/* Links da navbar */
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: var(--rosa-bem-claro) !important;
+}
+
+/* Estilo da lista */
+.list-group-item {
+    background-color: var(--rosa-claro);
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    color: var(--texto-escuro);
+}
